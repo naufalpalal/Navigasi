@@ -34,7 +34,7 @@ class HomePage extends StatelessWidget {
                     child: Column(
                       children: [
                         Hero(
-                          tag: item.photo, // Tag unik untuk animasi hero
+                          tag: item.photo,
                           child: Image.asset(item.photo, fit: BoxFit.cover, height: 100),
                         ),
                         Padding(

@@ -17,7 +17,7 @@ class ItemPage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Hero(
-              tag: item.photo, // Pastikan tag ini sesuai
+              tag: item.photo,
               child: Image.asset(item.photo, height: 200),
             ),
             const SizedBox(height: 20),
