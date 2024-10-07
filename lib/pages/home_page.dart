@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_navigasi/models/item.dart';
+import 'item_page.dart';
 
 class HomePage extends StatelessWidget {
   final List<Item> items = [

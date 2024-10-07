@@ -1,10 +1,10 @@
 class Item {
   final String name;
   final int price;
-  final String photo; // URL atau path ke gambar
-  final int stock; // Stok yang tersedia
-  final double rating; // Rating produk
-
+  final String photo;
+  final int stock;
+  final double rating;
+  
   Item({
     required this.name,
     required this.price,

@@ -1,12 +1,10 @@
-// lib/pages/item_page.dart
-
 import 'package:flutter/material.dart';
 import 'package:flutter_navigasi/models/item.dart';
 
 class ItemPage extends StatelessWidget {
   final Item item;
 
-  const ItemPage({super.key, required this.item});
+  const ItemPage({Key? key, required this.item}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -19,8 +17,8 @@ class ItemPage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Hero(
-              tag: item.imageUrl,
-              child: Image.asset(item.imageUrl, height: 200),
+              tag: item.photo, // Pastikan tag ini sesuai
+              child: Image.asset(item.photo, height: 200),
             ),
             const SizedBox(height: 20),
             Padding(
